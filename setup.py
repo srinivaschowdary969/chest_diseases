@@ -6,10 +6,10 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Chest-Disease-Classification-from-Chest-CT-Scan-Image"
-AUTHOR_USER_NAME = "entbappy"
+REPO_NAME = "Chest_diseases"
+AUTHOR_USER_NAME = "srinu"
 SRC_REPO = "cnnClassifier"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
+AUTHOR_EMAIL = "srinivas.bogineni13@gmail.com"
 
 
 setuptools.setup(
