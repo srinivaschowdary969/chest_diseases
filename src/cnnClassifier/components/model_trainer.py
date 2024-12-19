@@ -5,6 +5,7 @@ from cnnClassifier import logger
 from cnnClassifier.entity.config_entity import TrainingConfig
 import time
 from pathlib import Path
+import tensorflow as tf
 
 
 
