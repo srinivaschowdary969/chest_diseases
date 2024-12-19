@@ -2,6 +2,7 @@ from cnnClassifier.config.configuration import ConfigurationManager
 from cnnClassifier.components.prepare_base_model import PrepareBaseModel
 from cnnClassifier import logger
 import pathlib as Path
+import os
 
 
 STAGE_NAME = "Prepare Base Model"
