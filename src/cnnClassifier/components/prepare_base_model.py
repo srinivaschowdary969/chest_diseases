@@ -1,7 +1,7 @@
 import gdown
 from cnnClassifier import logger
 from cnnClassifier.utils.common import get_size
-from cnnClassifier.entity.config_entity import DataIngestionConfig,PrepareBaseModelConfig
+from cnnClassifier.entity.config_entity import PrepareBaseModelConfig
 import os
 import urllib.request as request
 from zipfile import ZipFile
