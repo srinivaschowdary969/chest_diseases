@@ -2,10 +2,11 @@ from cnnClassifier.config.configuration import ConfigurationManager
 from cnnClassifier.components.model_trainer import Training
 from cnnClassifier import logger
 import pathlib as Path
+import tensorflow as tf
 
 STAGE_NAME = "Model trainer"
 
-class ModelTrainingTrainingPipeline:
+class ModelTrainingPipeline:
     def __init__(self):
       pass
 
@@ -21,7 +22,7 @@ class ModelTrainingTrainingPipeline:
 if __name__ == '__main__':
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-        obj = ModelTrainingTrainingPipeline()
+        obj = ModelTrainingPipeline()
         obj.main()
         logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
     except Exception as e:
